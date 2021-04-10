@@ -375,7 +375,7 @@ color: #fff;
         font-size: 12px;
     }
     .mobileTopSpace-fifth{
-        margin-top: 64%;
+        margin-top: 81%;
     }
     .borderEmail{
         margin-top: 45%;
@@ -385,5 +385,17 @@ color: #fff;
     }
     .bgFooter{
         background-color: transparent;
+    }
+    .product-image-1{
+        width: 100%;
+    }
+    .fourthPageImageStyles-1 {
+        top: 65%;
+        left: 44%;
+    }
+        
+    .fourthPageImageStyles-2 {
+        top: 60%;
+        left: 33%;
     }
 }

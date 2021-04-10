@@ -350,3 +350,40 @@ color: #fff;
     color: var(--copyright-style);
     font-size: 11px;
 }
+
+.mainPageMessage-small{
+    position: absolute;
+    top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:20px;
+    }
+    .m-b-8{
+        margin-bottom: 8%;
+    }
+    .bgFourthPage-2, .bgFourthPage-1{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .bgFourthPage-2{
+        margin-top: 25%;
+        margin-left: 4%;
+    }
+    .productExpiryInfo-1{
+        font-size: 12px;
+    }
+    .mobileTopSpace-fifth{
+        margin-top: 64%;
+    }
+    .borderEmail{
+        margin-top: 45%;
+    }
+    .mt-2-small{
+        margin-top: 2%;
+    }
+    .bgFooter{
+        background-color: transparent;
+    }
+}

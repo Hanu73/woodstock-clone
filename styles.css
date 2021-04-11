@@ -367,6 +367,17 @@ color: #fff;
 .f-right{
     float: right;
 }
+.fixedNavbar{
+    position: fixed !important;
+    top: 0%;
+    background: #fff;
+    z-index: 100;
+    width: 100%;
+    box-shadow: -5px 1px #00000024;
+}
+.no-p-l{
+    padding-left: 0%;
+}
 
 @media screen and (max-width: 768px) {
     h1{
@@ -408,5 +419,8 @@ color: #fff;
     .fourthPageImageStyles-2 {
         top: 77%;
         left: 41%;
+    }
+    .marginMainBody-mobile{
+        margin-top: 27% !important;
     }
 }

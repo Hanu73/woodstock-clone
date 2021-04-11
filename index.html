@@ -14,13 +14,13 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="fixedNavbar">
 
         <!--- Large Screen Navbar -->
         <div class="col-lg-12 col-md-12 d-none d-md-block .d-xs-none pt-4 ">
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
-                    <i class="fa fa-bars menuStyles" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-bars menuStyles" aria-hidden="true"></i> -->
                 </div>
 
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
@@ -28,7 +28,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <p class="menuListNameStyles"><a class="menuRef" href="#shop">Shop</a></p>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 no-p-l">
                             <p class="menuListNameStyles"><a class="menuRef" href="#featured">Featured</a></p>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
@@ -62,8 +62,8 @@
         </div>
 
         <!-- Small Screen Navbar-->
-
-        <nav class="navbar navbar-expand-lg navbar-light d-block d-md-none">
+    
+        <nav class=" navbar navbar-expand-lg navbar-light d-block d-md-none "> 
             <a class="navbar-brand" href="#"><img src="assets/Logo.png"></a>
             <button class="navbar-toggler mt-3 f-right" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,8 +93,9 @@
             </div>
         </nav>
     </div>
+
     <!-- First Page -->
-<div id="websiteBody">
+<div id="websiteBody" class="marginMainBody-mobile">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4 border-leftStyle">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -123,7 +124,7 @@
             <div class="col-6">
                 <div class="row">
                     <div class="col-8">
-                        <p> Scroll </p>
+                        <a class="menuRef" href="#shop"> Scroll </a>
                     </div>
                     <div class="col-4">
                         <img src="assets/Arrow.png" class="c-pointer">

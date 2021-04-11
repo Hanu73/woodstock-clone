@@ -379,7 +379,7 @@ color: #fff;
     padding-left: 0%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
     h1{
         font-size:20px;
     }
@@ -423,4 +423,8 @@ color: #fff;
     .marginMainBody-mobile{
         margin-top: 27% !important;
     }
+}
+
+@media screen and (max-width: 768px) {
+
 }

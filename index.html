@@ -588,7 +588,7 @@
     <script>
         let toggler = document.querySelector('#navbarNav')
         document.getElementById('websiteBody').addEventListener('click', function(){
-            toggler.classList.toggle('show')
+           toggler.classList.contains('show')? toggler.classList.remove('show') : ''
         })
     </script>    
 </body>
